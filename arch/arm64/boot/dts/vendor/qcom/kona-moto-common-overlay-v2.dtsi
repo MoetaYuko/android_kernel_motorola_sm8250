@@ -81,5 +81,9 @@
 					"back_temp";
 		status = "ok";
 	};
+
+	restart@c264000 {
+		qcom,force-warm-reboot;
+	};
 };
 
